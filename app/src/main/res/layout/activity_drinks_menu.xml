@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DrinksMenu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Drinks Menu"
+            android:textAlignment="center"
+            android:textColor="#A81E5C"
+            android:textSize="35sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Coco Cola(50)"
+            android:textColor="#1B1615"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/cola"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+
+            android:text="add" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="7Up(80)"
+            android:textAlignment="center"
+            android:textColor="#0E0908"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/up1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:backgroundTint="#64DD17"
+            android:layout_weight="1"
+            android:text="add" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Sting(20)"
+            android:textAlignment="center"
+            android:textColor="#1B1615"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/sting"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:backgroundTint="#D50000"
+            android:text="add"
+            android:textAlignment="center" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="Sprite(60)"
+            android:textAlignment="center"
+            android:textColor="#1B1615"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/sprite"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:backgroundTint="#00C853"
+            android:layout_weight="1"
+            android:text="add" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <Button
+            android:id="@+id/order2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="60dp"
+            android:layout_weight="1"
+            android:text="next"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="#27EC52"
+            android:backgroundTint="#AA00FF"
+            android:visibility="visible" />
+    </LinearLayout>
+</LinearLayout>

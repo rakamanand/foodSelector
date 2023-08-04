@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".IceCreamMenu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="IceCream Menu"
+            android:textAlignment="center"
+            android:textColor="#A81E5C"
+            android:textSize="35sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="BttrScoch(50)"
+            android:textColor="#1B1615"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/bs"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="add" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="vennela(50)"
+            android:textAlignment="center"
+            android:textColor="#0E0908"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/v1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:backgroundTint="#00BFA5"
+            android:layout_weight="1"
+            android:text="add" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="BlckCuran(50)"
+            android:textAlignment="center"
+            android:textColor="#1B1615"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/bc"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:backgroundTint="#C51162"
+            android:text="add"
+            android:textAlignment="center" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="berry(50)"
+            android:textAlignment="center"
+            android:textColor="#1B1615"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/sb"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:backgroundTint="#AA00FF"
+            android:layout_weight="1"
+            android:text="add" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <Button
+            android:id="@+id/order3"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="60dp"
+            android:layout_weight="1"
+            android:text="@string/place_order"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="#27EC52"
+            android:backgroundTint="#DD2C00"
+            android:visibility="visible" />
+    </LinearLayout>
+
+</LinearLayout>

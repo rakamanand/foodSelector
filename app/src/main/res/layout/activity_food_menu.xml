@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:visibility="visible"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Food Menu"
+            android:textAlignment="center"
+            android:textColor="#DD2C00"
+            android:textSize="35sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="biryani(500)"
+
+            android:textAlignment="center"
+            android:textColor="#1B1615"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/biryani"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+
+            android:text="add" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="pizza(200)"
+            android:textAlignment="center"
+            android:textColor="#1B1615"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/pizza"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:backgroundTint="#64DD17"
+            android:layout_weight="1"
+
+            android:text="add" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="burger(250)"
+            android:textAlignment="center"
+
+
+            android:textColor="#1B1615"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/burger"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:backgroundTint="#991FD6"
+
+
+            android:text="add"
+            android:textAlignment="center" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="pasta(150)"
+
+            android:textAlignment="center"
+            android:textColor="#1B1615"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/pasta"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/black"
+            android:layout_weight="1"
+            android:text="add" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <Button
+            android:id="@+id/order"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="60dp"
+            android:layout_weight="1"
+            android:text="next"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="#27EC52"
+
+            android:backgroundTint="#DD2C00"
+            android:visibility="visible" />
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
